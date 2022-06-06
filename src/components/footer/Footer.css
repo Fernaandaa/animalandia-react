@@ -1,0 +1,32 @@
+footer{
+    background-image: url(../../img/fondo.jpg);
+    
+}
+
+.container-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgba(140, 21, 190, 0.568);
+    padding: 1rem;
+    margin-top: 15px;
+}
+
+.container-headquarters h3{
+    color:aliceblue;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container-headquarters img{
+    width: 50%;
+    height: auto;
+}
+
+.container-headquarters{
+    text-align: center;
+}
+
+.container-headquarters p {
+    color: white;
+}

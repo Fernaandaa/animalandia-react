@@ -1,0 +1,46 @@
+:root{
+    --blue-color: #00b2b1;
+    --purple-color: rgb(117,41,149);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+ nav{
+    display: flex;
+    background-color: var(--purple-color);
+    align-items: center;
+    justify-content: left;
+    padding: 1.5%;    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(124, 51, 155);
+}
+
+.link{
+    padding: 15px;
+}
+
+/*
+.nav-cuidado{
+    border: none;
+    background-color: rgba(206, 26, 182);
+    margin-right: 230px;
+}
+.nav-cuidado a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.item:hover{
+    color: rgba(255,255,255,0.4);
+} */
